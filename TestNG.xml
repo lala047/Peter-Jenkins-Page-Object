@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="PageObjectProject">
+
+<listeners>
+		<listener class-name="com.peterjenkins.utilities.Reportinglistener" />
+	</listeners>
+
+
+	<test name="Ecommerce Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+		
+		  <!--class name="com.peterjenkins.TC_NoofLinks_005"/>-->
+		    <!--class name="com.peterjenkins.testcases.TC_ReturnToHomePage_002"/>-->
+		    <!--<class name="com.peterjenkins.testcases.TC_CreateAcct_002" />-->
+			 <!--<class  name="com.peterjenkins.testcases.TC_LoginTest_001" />-->
+			<!--<class name="com.peterjenkins.testcases.TC_LoginDDT_002" />-->
+			<class name="com.peterjenkins.testcases.TC_POMAddToCartTest003" />
+		</classes>
+
+	</test>
+
+</suite>
